@@ -6,7 +6,7 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, "My Awesome Go Web App")
+  fmt.Fprintf(w, "My Awesome Go App")
 }
 
 func setupRoutes() {
@@ -14,7 +14,7 @@ func setupRoutes() {
 }
 
 func main() {
-  fmt.Println("Go Web App Started on Port 80")
+  fmt.Println("Go Web App Started on Port 3000")
   setupRoutes()
-  http.ListenAndServe(":80", nil)
+  http.ListenAndServe(":3000", nil)
 }
