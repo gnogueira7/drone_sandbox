@@ -20,5 +20,9 @@ steps:
     password:
       from_secret: docker_password
     repo: rlachhman/amazingapp
+    tags:
+      - latest
+      - '1.0.1'
+      - '1.0'
     auto_tag: true
     auto_tag_suffix: drone-build
