@@ -2,7 +2,7 @@
 #Commit Message: Drone! Captain Canary is here!!!
 
 kind: pipeline
-type: kubernetes
+#type: kubernetes
 name: default
 
 steps:
@@ -21,4 +21,4 @@ steps:
       from_secret: docker_password
     repo: rlachhman/amazingapp
     tags:
-      - '1.0.12'
+      - '1.0.12.dc'
