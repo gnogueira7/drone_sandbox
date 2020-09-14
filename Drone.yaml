@@ -36,4 +36,4 @@ steps:
       from_secret: harness_webhookid
     harnessartifactname: "rlachhman_amazingapp"
     artifactversion: "1.0.2"
-    servicename: "CD Pipeline"
+    harnessservicename: "Amazing App"
