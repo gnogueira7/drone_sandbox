@@ -24,7 +24,7 @@ steps:
       - '1.0.2'
       
 - name: harness-deploy
-  image: rlachhman/drone-harness-trigger:1.0.1
+  image: rlachhman/drone-harness-trigger:1.0.0
   settings:  
     accountid:
       from_secret: harness_accountid
