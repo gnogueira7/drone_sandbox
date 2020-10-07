@@ -21,19 +21,19 @@ steps:
       from_secret: docker_password
     repo: rlachhman/amazingapp
     tags:
-      - '1.0.3'
-      
-- name: harness-deploy
-  image: rlachhman/drone-harness-trigger:1.0.0
-  settings:  
-    accountid:
-      from_secret: harness_accountid
-    apikey: 
-      from_secret: harness_apikey
-    applicationid: 
-      from_secret: harness_applicationid
-    harnesswebhookid: 
-      from_secret: harness_webhookid
-    harnessartifactname: "rlachhman_amazingapp"
-    artifactversion: "1.0.2"
-    harnessservicename: "Amazing App"
+      - '1.0.4_HarnessU'
+#      
+#- name: harness-deploy
+#  image: rlachhman/drone-harness-trigger:1.0.0
+#  settings:  
+#    accountid:
+#      from_secret: harness_accountid
+#    apikey: 
+#      from_secret: harness_apikey
+#    applicationid: 
+#      from_secret: harness_applicationid
+#    harnesswebhookid: 
+#      from_secret: harness_webhookid
+#    harnessartifactname: "rlachhman_amazingapp"
+#    artifactversion: "1.0.2"
+#    harnessservicename: "Amazing App"
