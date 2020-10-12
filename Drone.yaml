@@ -1,5 +1,5 @@
 #Drone CI File!
-#Commit Message: Drone! Captain Canary is here!!!
+#Commit Message: Drone! Captain Canary is here!!
 
 kind: pipeline
 type: kubernetes
@@ -21,7 +21,7 @@ steps:
       from_secret: docker_password
     repo: rlachhman/amazingapp
     tags:
-      - '1.0.5_HarnessU'
+      - '1.0.6_HarnessUFall2020'
 #      
 #- name: harness-deploy
 #  image: rlachhman/drone-harness-trigger:1.0.0
