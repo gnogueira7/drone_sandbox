@@ -22,7 +22,7 @@ steps:
       from_secret: docker_password
     repo: rlachhman/amazingapp
     tags:
-      - '1.0.11'
+      - '1.0.12'
 #      
 #- name: harness-deploy
 #  image: rlachhman/drone-harness-trigger:1.0.0
