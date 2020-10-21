@@ -1,5 +1,5 @@
 #Drone CI File!
-#Commit Message: Drone! Captain Canary is here!!
+#Commit Message: Drone! Captain Canary is here!
 #My Name is Ravi
 
 kind: pipeline
@@ -22,7 +22,7 @@ steps:
       from_secret: docker_password
     repo: rlachhman/amazingapp
     tags:
-      - '1.0.14'
+      - '1.0.1_unscripted'
 #      
 #- name: harness-deploy
 #  image: rlachhman/drone-harness-trigger:1.0.0
